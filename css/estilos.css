@@ -1,0 +1,106 @@
+.Contenedor-izq{
+    width: 300px;
+}
+.Contenedor-izq img{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+.Contenedor-nombre h2,
+.Contenedor-nombre p{
+    margin: 0;
+}
+.Contenedor-texto{
+    background-color: #eb0909;
+    border-radius: 10px;
+}
+.Contenedor-imagen-titulo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Fila{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.Autor{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Autor img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.Autor h3{
+    margin: 0;
+}
+.Tarjeta-borde{
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #222;
+    border-radius: 15px;
+}
+.Tarjeta-foto{
+    display: flex;
+    gap: 15px;
+    width: 700px;
+}
+.Foto-grande{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Contenido-oscuro{
+    flex: 1;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 20px;
+}
+.Contenido-oscuro h2{
+    margin: 5px 0;
+}
+.Contenido-oscuro span{
+    color: #888;
+}
+.Estrellas{
+    color: #f5c518;
+    font-size: 24px;
+}
+.Tarjeta-carrusel{
+    width: 700px;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    text-align: center;
+}
+.Carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Carrusel img{
+    border-radius: 50%;
+}
+.Lateral{
+    width: 45px;
+    height: 45px;
+    opacity: 0.5;
+}
+.Central{
+    width: 65px;
+    height: 65px;
+}
